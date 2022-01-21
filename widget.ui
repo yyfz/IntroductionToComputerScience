@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-top-left-radius:10px;
+
+border-top-right-radius:10px;
+
+border-bottom-left-radius:10px;
+
+border-bottom-right-radius:10px;
+
+background-color: rgb(244, 244, 244);</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>25</y>
+     <width>700</width>
+     <height>700</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(215, 232, 255);
+
+border-top-left-radius:10px;
+
+border-top-right-radius:10px;
+
+border-bottom-left-radius:10px;
+
+border-bottom-right-radius:10px;
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="midLineWidth">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clearBtn">
+   <property name="geometry">
+    <rect>
+     <x>895</x>
+     <y>670</y>
+     <width>130</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-top-left-radius:13px;
+
+border-top-right-radius:13px;
+
+border-bottom-left-radius:13px;
+
+border-bottom-right-radius:13px;
+
+background-color: rgb(255, 219, 252);
+color: rgb(104, 74, 255);</string>
+   </property>
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="closeBtn">
+   <property name="geometry">
+    <rect>
+     <x>1170</x>
+     <y>10</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">min-width: 20px;
+ min-height:20px;
+max-width:20px;
+ max-height:20px;
+border-radius:10;
+background-color: rgb(255, 123, 123);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="minimizeBtn">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>10</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">min-width: 20px;
+min-height:20px;
+max-width:20px;
+max-height:20px;
+border-radius:10;
+background-color: rgb(134, 255, 158);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QFrame" name="vertexContentFrame">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>70</y>
+     <width>360</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-top-left-radius:15px;
+
+border-top-right-radius:15px;
+
+border-bottom-left-radius:15px;
+
+border-bottom-right-radius:15px;
+
+background-color: rgb(255, 253, 188);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>10</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 9pt &quot;Consolas&quot;;
+color: rgb(255, 174, 93);</string>
+    </property>
+    <property name="text">
+     <string>Vertex Name:</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="vertexDetailTextEdit">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>110</y>
+      <width>300</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top-left-radius:10px;
+
+border-top-right-radius:10px;
+
+border-bottom-left-radius:10px;
+
+border-bottom-right-radius:10px;
+
+background-color: rgb(174, 255, 228);
+font: 9pt &quot;华光仿宋_CNKI&quot;;
+color: rgb(97, 97, 97);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>80</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 9pt &quot;Consolas&quot;;
+color: rgb(255, 174, 93);</string>
+    </property>
+    <property name="text">
+     <string>Vertex Detail:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="vertexNameLineEdit">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top-left-radius:8px;
+
+border-top-right-radius:8px;
+
+border-bottom-left-radius:8px;
+
+border-bottom-right-radius:8px;
+
+background-color: rgb(193, 194, 255);
+font: 9pt &quot;华光仿宋_CNKI&quot;;
+color: rgb(80, 80, 80);</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+    <property name="dragEnabled">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="HelloWorld">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>260</width>
+      <height>230</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 45pt &quot;Ink Free&quot;;
+color: rgb(193, 194, 255);</string>
+    </property>
+    <property name="text">
+     <string>Hello
+World!</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tipLabel">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>229</y>
+      <width>260</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 9pt &quot;华光行书_CNKI&quot;;
+color: rgb(111, 111, 111);</string>
+    </property>
+    <property name="text">
+     <string>滚轮缩放画布
+双击创建结点
+双击结点扩展边
+拖动改变结点位置
+右键单击删除结点
+左键单击结点显示内容
+鼠标在节点处停留展示结点内容</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="showNameBtn">
+   <property name="geometry">
+    <rect>
+     <x>845</x>
+     <y>550</y>
+     <width>230</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-top-left-radius:13px;
+
+border-top-right-radius:13px;
+
+border-bottom-left-radius:13px;
+
+border-bottom-right-radius:13px;
+
+background-color: rgb(255, 219, 252);
+color: rgb(104, 74, 255);</string>
+   </property>
+   <property name="text">
+    <string>Show Vertex Name</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>1126</x>
+     <y>6</y>
+     <width>68</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+border-top-left-radius:10px;
+
+border-top-right-radius:10px;
+
+border-bottom-left-radius:10px;
+
+border-bottom-right-radius:10px;
+background-color: rgb(255, 225, 208);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="showDiagramBtn">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>490</y>
+     <width>280</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-top-left-radius:13px;
+
+border-top-right-radius:13px;
+
+border-bottom-left-radius:13px;
+
+border-bottom-right-radius:13px;
+
+background-color: rgb(255, 219, 252);
+color: rgb(104, 74, 255);</string>
+   </property>
+   <property name="text">
+    <string>Show Course Diagram</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="showMoreBtn">
+   <property name="geometry">
+    <rect>
+     <x>875</x>
+     <y>610</y>
+     <width>170</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-top-left-radius:13px;
+
+border-top-right-radius:13px;
+
+border-bottom-left-radius:13px;
+
+border-bottom-right-radius:13px;
+
+background-color: rgb(255, 219, 252);
+color: rgb(104, 74, 255);</string>
+   </property>
+   <property name="text">
+    <string>Show More</string>
+   </property>
+  </widget>
+  <zorder>frame_2</zorder>
+  <zorder>vertexContentFrame</zorder>
+  <zorder>clearBtn</zorder>
+  <zorder>frame</zorder>
+  <zorder>closeBtn</zorder>
+  <zorder>minimizeBtn</zorder>
+  <zorder>showNameBtn</zorder>
+  <zorder>showDiagramBtn</zorder>
+  <zorder>showMoreBtn</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

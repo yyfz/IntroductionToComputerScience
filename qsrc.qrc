@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/text">
+        <file>src/HelloWorld.txt</file>
+        <file>src/CoursesDiagram.txt</file>
+        <file>src/CoursesDiagramVertexInfo.txt</file>
+        <file>src/ContentVertexInfo.txt</file>
+        <file>src/Website.html</file>
+        <file>src/Favorites.html</file>
+        <file>src/Book.html</file>
+        <file>src/Recognition.html</file>
+        <file>src/Content.txt</file>
+        <file>src/Plan.html</file>
+    </qresource>
+</RCC>
