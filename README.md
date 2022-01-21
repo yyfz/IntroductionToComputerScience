@@ -18,13 +18,13 @@
 
 ​		小清新配色界面、一定透明度、圆角边框：
 
-<img  src="C:/Users/yyfz/Desktop/%E5%AF%BC%E8%AE%BA%E4%BD%9C%E4%B8%9A/7.png" width="90%">
+<img  src="/7.png" width="90%">
 
 ### 2. 进入动画
 
 ​		进入应用程序后，会有动画自动绘制“HELLO WORLD”字样的图：
 
-<img src="C:/Users/yyfz/Desktop/%E5%AF%BC%E8%AE%BA%E4%BD%9C%E4%B8%9A/8.png" width="90%">
+<img src="/8.png" width="90%">
 
 ### 3. 数据结构之图的操作
 
@@ -48,11 +48,11 @@
 
   -  方式一：左键单击结点选中，右侧显示结点名称与内容：
 
-    <img src="C:/Users/yyfz/Desktop/%E5%AF%BC%E8%AE%BA%E4%BD%9C%E4%B8%9A/2.png" width="40%">
+    <img src="/2.png" width="40%">
 
   -  方式二：鼠标悬浮在结点上，显示结点信息浮框:
 
-    <img src="C:/Users/yyfz/Desktop/%E5%AF%BC%E8%AE%BA%E4%BD%9C%E4%B8%9A/3.png" width="40%">
+    <img src="/3.png" width="40%">
 
 ### 4. 课程拓扑关系图展示
 
@@ -60,17 +60,17 @@
 
 ​		以动画的方式展示了拓扑图的绘制过程，并且每一拓扑图都有对应的课程详细介绍：
 
-<img src="C:/Users/yyfz/Desktop/%E5%AF%BC%E8%AE%BA%E4%BD%9C%E4%B8%9A/4.png" width="70%">
+<img src="/4.png" width="70%">
 
 ### 5. 其他内容展示
 
 ​		同样以动画的方式创建其他内容展示的图：
 
-<img src="C:/Users/yyfz/Desktop/%E5%AF%BC%E8%AE%BA%E4%BD%9C%E4%B8%9A/5.png" width="60%">
+<img src="/5.png" width="60%">
 
 ​	点击对应结点，可以展示对应具体内容
 
-<img src="C:/Users/yyfz/Desktop/%E5%AF%BC%E8%AE%BA%E4%BD%9C%E4%B8%9A/6.png" width="50%">
+<img src="/6.png" width="50%">
 
 ### 6. 其他细节
 
